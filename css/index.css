@@ -64,7 +64,7 @@ section{
     margin-right: 5px;
 }
 
-#progress * {margin-bottom: 3px;
+#progress * {margin-bottom: 4px;
 }
 
 .progress-bar-background {
@@ -109,7 +109,7 @@ img {
     padding-top: 20px;
 }
 
-.image2 {
+.imagegit2 {
     width: 290px;
     height: 160px;
 }
