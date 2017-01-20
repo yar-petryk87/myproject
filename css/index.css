@@ -5,43 +5,6 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    background-color: rgb(189,170,189);
-    position: relative;
-    width: 100%;
-    border-radius: 10px;
-    padding:0;
-    height: 80px;
-     
-}
-
-section{
-    padding: 5px;
-}
-section {
-    margin-right: 5px;
-}
-.menu {
-    height: 100%;
-    text-align: center;
-    line-height: 80px;
-    color: blue;
-    font-size: 20px;
-    text-decoration: none;
-    
-}
-
-.menu:hover {background-color: grey;}
-
-.selected {
-    background-color: rgb(161,141,161);
-    height: 100%;
-    text-align: center;
-    line-height: 80px;
-}
-
-
-
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -68,41 +31,103 @@ section {
     display: table;
 }
 
-img {
+header {
+    background-color: rgb(189,170,189);
+    position: relative;
     width: 100%;
+    border-radius: 10px;
+    padding:0;
+    height: 80px;
+}
+
+.menu {
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu:hover {background-color: grey;
+}
+
+.selected {
+    background-color: rgb(161,141,161);
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+section{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#progress * {margin-bottom: 3px;
 }
 
 .progress-bar-background {
     position: relative;
-    z-index: -1;
-    background-color: rgb(237,240,245);
+    width: 100%;
+    background-color: rgb(212,200,212);
     border-radius: 20px;
-
+    height: 17px;
 }
 
 .progress-bar-color {
-    position: relative;
+    position: absolute;
     background-color: rgb(161,141,161);
-    width: 100%;
+    width: 50%;
+    height: 100%;
     border-radius: 20px;
-    
 }
 
 .progress-bar-text {
+    position: relative;
+    bottom: 18px;
     text-align: center;
     color: white;
-    
-    
 }
 
 .text-center {
     text-align: justify;
 }
+
+img {
+    width: 100%;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.image {width: 10%;
+}
+
+.image-call-me {
+    padding-top: 20px;
+}
+
+.image2 {
+    width: 290px;
+    height: 160px;
+}
+
+article {
+    padding: 0 10px 0 10px;
+}
+
 ul li {
     display: inline;
 }
+
 ul { padding: 0;
     
+}
+
+legend {
+    color: rgb(180,180,180);
 }
 
 .pictogram {
@@ -110,46 +135,36 @@ ul { padding: 0;
     width: 50;
 }
 
-
-.image {width: 10%;
-    
-}
-.image1 {
-    padding-top: 20px;
-}
-
-.image2 {
-   
-    width: 290px;
-    height: 160px;
-   
-}
-
 footer {background-color: rgb(225,225,225);
 border-radius: 10px;
 }
+
 footer p {
     text-align: center;
     opacity: 0.6;
 }
 
-legend {
-    color: rgb(180,180,180);
-}
 
-article {
-    padding: 0 10px 0 10px;
-}
 
-article.contact {
-    padding: 0;
-}
 
-.contact {
-    margin-left: 10px;
-}
 
-h2.name {
-    position: relative;
-    left: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
