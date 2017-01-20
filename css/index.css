@@ -6,6 +6,7 @@ body {
 }
 
 
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -110,6 +111,7 @@ img {
 }
 
 .image2 {
+    padding: 5px;
     width: 290px;
     height: auto;
 }
@@ -126,6 +128,8 @@ ul { padding: 0;
     
 }
 
+
+
 legend {
     color: rgb(180,180,180);
 }
@@ -133,6 +137,10 @@ legend {
 .pictogram {
     height: 40;
     width: 50;
+}
+
+aside {
+    margin: 0;
 }
 
 footer {background-color: rgb(225,225,225);
