@@ -64,7 +64,7 @@ section{
     margin-right: 5px;
 }
 
-#progress * {margin-bottom: 4px;
+#progress * {margin-bottom: 0;
 }
 
 .progress-bar-background {
@@ -99,7 +99,7 @@ img {
 }
 
 .contact {
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 .image {width: 10%;
@@ -109,9 +109,9 @@ img {
     padding-top: 20px;
 }
 
-.imagegit2 {
+.image2 {
     width: 290px;
-    height: 160px;
+    height: auto;
 }
 
 article {
