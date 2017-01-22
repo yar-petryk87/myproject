@@ -1,7 +1,7 @@
 body {
     background-color: rgb(237,240,245);
-    width: 900px;
-    margin: 5px;
+    max-width: 900px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -41,6 +41,48 @@ header {
     height: 80px;
 }
 
+
+section{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+article {
+    padding: 0 10px 0 10px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul { padding: 0;
+    
+}
+
+legend {
+    color: rgb(180,180,180);
+}
+
+aside {
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(225,225,225);
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    opacity: 0.6;
+}
+
+
+
 .menu {
     height: 100%;
     text-align: center;
@@ -58,11 +100,7 @@ header {
     height: 100%;
     text-align: center;
     line-height: 80px;
-}
-
-section{
-    padding: 5px;
-    margin-right: 5px;
+    border-radius: 10px;
 }
 
 #progress * {margin-bottom: 0;
@@ -91,17 +129,14 @@ section{
     color: white;
 }
 
-.text-center {
+.text-justify {
     text-align: justify;
 }
 
-img {
-    width: 100%;
+.text-center {
+    text-align: center;
 }
 
-.contact {
-    margin-left: 0;
-}
 
 .image {width: 10%;
 }
@@ -112,49 +147,13 @@ img {
 
 .image2 {
     padding: 5px;
-    width: 290px;
-    height: auto;
+    width: 285px;
+
 }
 
-article {
-    padding: 0 10px 0 10px;
+.form {
+    width: 250px;
 }
-
-ul li {
-    display: inline;
-}
-
-ul { padding: 0;
-    
-}
-
-
-
-legend {
-    color: rgb(180,180,180);
-}
-
-.pictogram {
-    height: 40;
-    width: 50;
-}
-
-aside {
-    margin: 0;
-}
-
-footer {background-color: rgb(225,225,225);
-border-radius: 10px;
-}
-
-footer p {
-    text-align: center;
-    opacity: 0.6;
-}
-
-
-
-
 
 
 
