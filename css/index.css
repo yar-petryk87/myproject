@@ -7,29 +7,36 @@ body {
 
 
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
 
-[class*="col-"] {
-    float: left;
-    padding: 0;
+.flex-item-heading {
+    flex: 0 0 40%;
    
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.flex-item-nav {
+   flex: 0 0 15%;
+}
+
+.flex-item-section {
+    flex: 0 0 32%;
+}
+
+
+.flex-item-contact {
+    flex: 0 0 70%;
+}
+
+.flex-item-contact-photo {
+    flex: 0 0 35%;
+    
+}
+
+.flex-item-footer {
+    flex: 0 0 50%;
 }
 
 header {
@@ -67,9 +74,7 @@ legend {
     color: rgb(180,180,180);
 }
 
-aside {
-    margin: 0;
-}
+
 
 footer {
     background-color: rgb(225,225,225);
@@ -103,7 +108,8 @@ footer p {
     border-radius: 10px;
 }
 
-#progress * {margin-bottom: 0;
+#progress * {
+    margin-bottom: 0;
 }
 
 .progress-bar-background {
@@ -146,13 +152,13 @@ footer p {
 }
 
 .image2 {
-    padding: 5px;
-    width: 285px;
+    padding: 3px;
+    width: 100%;
 
 }
 
 .form {
-    width: 250px;
+    width: 100%;
 }
 
 
