@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/holiday.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>My Holiday</title>
 </head>
 
@@ -41,18 +42,50 @@
 
     </section>
     <hr>
+     
     <h3> You can choose your favorite city and show some sightseeing</h3>
-    <form methd="POST" action="https://formspree.io/y.petryk87@ukr.net">
-
-        <select>
-                <option value="default">Select the city...</option>
+    <br>
+   <section class="flex-container">
+        <form class="flex-item-form" method="POST" action="https://formspree.io/y.petryk87@ukr.net">
+        <fieldset>
+        <legend>The city</legend>
+            <select  id="category-city">
+                <option value="default" selected>Select the city...</option>
                 <option value="paris">Paris</option>
                 <option value="rome">Rome</option>
-                <option value="madrid">Madrid</option>
+                <option value="london">London</option>
+             </select>
+             <br>
+             <br>
+            <select id="paris-subcategory" class="subcategory inactive">
+              <option value="monmartre">Momartre</option>
+              <option value="louvre">Louvre</option>
+              <option value="eiffel-tower" selected>Eiffel Tower</option>
             </select>
-
+             <br>
+             <br>
+             <select id="rome-subcategory" class="subcategory inactive">
+              <option value="colosseum">Colosseum</option>
+              <option value="pantheon">Pantheon</option>
+              <option value="st-peters-basilica" selected>St Peter's Basilica</option>
+            </select>
+             <br>
+             <br>
+            <select id="london-subcategory" class="subcategory inactive">
+              <option value="tower-bridge">Tower bridge</option>
+              <option value="big-ben">Big Ben</option>
+              <option value="buckingham-palace" selected>Bickingham Palace</option>
+            </select>
+    </fieldset>
     </form>
 
+<section class="flex-item-form-image">
+   <figure>
+   <img src="image/lviv.jpg" alt="Lviv">
+   <figcaption class="text-center">The city Lviv </figcaption>
+   </figure>
+    </section>
+</section>
     <br>
     <hr>
     <footer class="flex-container">
@@ -65,7 +98,7 @@
 
 
 
-
+<script src="js/holiday.script"></script>
 
 </body>
 
