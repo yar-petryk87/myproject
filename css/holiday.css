@@ -126,4 +126,11 @@ fieldset {
     height: 245px;
 }
 
-.subcategory.inactive {display: none; }
+.subselect {
+    display: none;
+}
+
+.default {
+   
+    background-color: grey;
+}

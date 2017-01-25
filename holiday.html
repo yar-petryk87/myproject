@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/holiday.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>My Holiday</title>
+
 </head>
 
 <body>
@@ -42,64 +42,62 @@
 
     </section>
     <hr>
-     
-    <h3> You can choose your favorite city and show some sightseeing</h3>
+    <h3> You can choose your favorite city and show some places</h3>
     <br>
-   <section class="flex-container">
+    <section class="flex-container">
         <form class="flex-item-form" method="POST" action="https://formspree.io/y.petryk87@ukr.net">
-        <fieldset>
-        <legend>The city</legend>
-            <select  id="category-city">
-                <option value="default" selected>Select the city...</option>
+            <fieldset>
+                <legend>The city</legend>
+            <select id="mainselect" onchange='selectCity()'>
+                <option class="default" value="default" selected>Select the city...</option>
                 <option value="paris">Paris</option>
                 <option value="rome">Rome</option>
                 <option value="london">London</option>
-             </select>
-             <br>
-             <br>
-            <select id="paris-subcategory" class="subcategory inactive">
-              <option value="monmartre">Momartre</option>
-              <option value="louvre">Louvre</option>
-              <option value="eiffel-tower" selected>Eiffel Tower</option>
             </select>
-             <br>
-             <br>
-             <select id="rome-subcategory" class="subcategory inactive">
-              <option value="colosseum">Colosseum</option>
-              <option value="pantheon">Pantheon</option>
-              <option value="st-peters-basilica" selected>St Peter's Basilica</option>
+                <br>
+                <br>
+                <br>
+            <select id="paris-subselect" class="subselect" onchange="showImage()">
+                <option  class="default" value="default" selected>Paris place ...</option>
+                <option value="monmartre">Monmartre</option>
+                <option value="louvre">Louvre</option>
+                <option value="eiffel-tower">Eiffel Tower</option>
             </select>
-             <br>
-             <br>
-            <select id="london-subcategory" class="subcategory inactive">
-              <option value="tower-bridge">Tower bridge</option>
-              <option value="big-ben">Big Ben</option>
-              <option value="buckingham-palace" selected>Bickingham Palace</option>
-            </select>
-    </fieldset>
-    </form>
 
-<section class="flex-item-form-image">
-   <figure>
-   <img src="image/lviv.jpg" alt="Lviv">
-   <figcaption class="text-center">The city Lviv </figcaption>
-   </figure>
+            <select id="rome-subselect" class="subselect">
+                <option  class="default" value="default" selected>Rome place ..</option>
+                <option value="colosseum">Colosseum</option>
+                <option value="pantheon">Pantheon</option>
+                <option value="st-peters-basilica" >St Peter's Basilica</option>
+            </select>
+
+            <select id="london-subselect" class="subselect">
+                <option  class="default"  value="default" selected>London place ..</option>
+                <option value="tower-bridge">Tower bridge</option>
+                <option value="big-ben">Big Ben</option>
+                <option value="buckingham-palace" >Bickingham Palace</option>
+            </select>
+            </fieldset>
+        </form>
+
+        <section class="flex-item-form-image">
+            <img id="city" src="image/london.jpg" alt="lviv">
+        </section>
     </section>
-</section>
     <br>
     <hr>
     <footer class="flex-container">
         <p class="flex-item">Yaroslav Petryk</p>
         <p class="flex-item">&#174; All rights reserved</p>
-
     </footer>
     <hr>
 
 
 
 
-<script src="js/holiday.script"></script>
 
+    <script src='js/holiday.js'></script>
+    <script src='js/holiday-01.js'></script>
 </body>
 
 </html>
