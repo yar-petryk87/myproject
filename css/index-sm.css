@@ -14,20 +14,20 @@ body {
 
 .flex-container-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .flex-item-heading {
-    flex: 0 0 40%;
-   
+    display: none;
 }
 
 .flex-item-nav {
-   flex: 0 0 15%;
+   flex: 0 0 25%;
 }
 
 .flex-item-section {
-    flex: 0 0 32%;
+    flex: 0 0 100%;
 }
 
 
@@ -159,8 +159,7 @@ footer p {
 }
 
 .image-aside {
-    padding: 3px;
-    width: 100%;
+    display: none;
 
 }
 
@@ -169,8 +168,10 @@ footer p {
 }
 
 #heading {
-    display: none;
+    text-align: center;
 }
+
+
 
 
 

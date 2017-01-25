@@ -11,7 +11,16 @@ body {
     justify-content: space-between;
 }
 
+.flex-container-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .flex-item {
+    flex: 0 0 50%;
+}
+
+.flex-item-footer {
     flex: 0 0 50%;
 }
 
@@ -28,6 +37,7 @@ header {
     background-color: rgb(189,170,189);
     position: relative;
     width: 100%;
+    position: relative;
     border-radius: 10px;
     padding: 0;
     height: 80px;

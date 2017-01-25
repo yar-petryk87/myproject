@@ -11,30 +11,33 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .flex-container-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .flex-item {
+    flex: 0 0 100%;
+}
+
+.lex-item-result {
     flex: 0 0 50%;
 }
 
-.flex-item-result {
-    flex: 0 0 50%;
-}
 .flex-item-footer {
     flex: 0 0 50%;
 }
 
-
 .flex-item-heading {
     flex: 0 0 40%;
+    display: none;
    
 }
 
 .flex-item-nav {
-   flex: 0 0 15%;
+   flex: 0 0 25%;
 }
 
 header {

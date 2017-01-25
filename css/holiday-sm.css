@@ -12,28 +12,30 @@ body {
 
 .flex-container-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .flex-item {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
 }
 
 .flex-item-heading {
     flex: 0 0 40%;
+    display: none;
    
 }
 
 .flex-item-nav {
-   flex: 0 0 15%;
+   flex: 0 0 25%;
 }
 
 .flex-item-form {
-   flex: 0 0 30%;
+   flex: 0 0 50%;
 }
 
 .flex-item-form-image {
-   flex: 0 0 70%;
+   flex: 0 0 50%;
 }
 
 .flex-item-footer {
@@ -128,7 +130,7 @@ fieldset {
 }
 
 .image-example {
-    opacity: 0.3;
+    display: none;
 }
 
 .image {
