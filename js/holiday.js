@@ -1,5 +1,5 @@
 
-document.getElementById('mainselect').addEventListener('change' , selectCity);
+/*document.getElementById('mainselect').addEventListener('change' , selectCity);
 function selectCity() {
 
     var mainSelect = document.getElementById('mainselect') ;
@@ -14,7 +14,7 @@ function selectCity() {
     newSelect.style.display = 'inline-block' ;
 };
 
-
+*/
 
 
 
