@@ -27,7 +27,7 @@ document.getElementById('london-subselect').addEventListener('change' , showImag
     
 document.getElementById('paris-subselect').addEventListener('change' , showImageParis);
     function showImageParis() {
-        document.getElementById('city').src = '../' + this.value + '.jpg';
+        document.getElementById('city').src = '../image/' + this.value + '.jpg';
     };
     
     document.getElementById('rome-subselect').addEventListener('change' , showImageRome);
