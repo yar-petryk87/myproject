@@ -3,6 +3,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     box-sizing: border-box;
+   
 }
 
 header {
@@ -61,4 +62,10 @@ legend {
 
 .text-justify {
     text-align: justify;
+}
+
+p {
+    font-family: ariel;
+
+    line-height: ;
 }

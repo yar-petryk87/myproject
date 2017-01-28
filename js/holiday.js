@@ -28,7 +28,7 @@ function showImage() {
     
     if(this.value!='default') {
     document.getElementById('city').src = './image/' + this.value + '.jpg';}
-    else { document.getElementById('city').src = './image/lviv.jpg';}
+    else { document.getElementById('city').src = './image/choose1.jpg';}
     
 };  
 

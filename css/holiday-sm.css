@@ -1,37 +1,60 @@
 .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .flex-item-heading {
-    flex: 0 0 40%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
     display: none;
 }
 
 .flex-item-nav {
-   flex: 0 0 25%;
+   -webkit-box-flex: 0;
+       -ms-flex: 0 0 25%;
+           flex: 0 0 25%;
 }
 
 .flex-container-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .flex-item {
-    flex: 0 0 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
 }
 
 .flex-item-form {
-   flex: 0 0 50%;
+   -webkit-box-flex: 0;
+       -ms-flex: 0 0 50%;
+           flex: 0 0 50%;
 }
 
 .flex-item-form-image {
-   flex: 0 0 50%;
+   -webkit-box-flex: 0;
+       -ms-flex: 0 0 50%;
+           flex: 0 0 50%;
 }
 
 .flex-item-footer {
-    flex: 0 0 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
 }
 
 section * {
