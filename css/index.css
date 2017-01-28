@@ -25,7 +25,7 @@
 }
 
 .flex-item-contact-photo {
-    flex: 0 0 35%;
+    flex: 0 0 30%;
     
 }
 
@@ -62,10 +62,42 @@ ul { padding: 0;
     height: 17px;
 }
 
-.progress-bar-color {
+.progress-bar-color-html {
+    position: absolute;
+    background-color: rgb(161,141,161);
+    width: 75%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-bar-color-css {
+    position: absolute;
+    background-color: rgb(161,141,161);
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-bar-color-js {
     position: absolute;
     background-color: rgb(161,141,161);
     width: 50%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-bar-color-jquery {
+    position: absolute;
+    background-color: rgb(161,141,161);
+    width: 62%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-bar-color-bootstrap {
+    position: absolute;
+    background-color: rgb(161,141,161);
+    width: 70%;
     height: 100%;
     border-radius: 20px;
 }
