@@ -93,7 +93,7 @@ ul { padding: 0;
 .progress-bar-color-css {
     position: absolute;
     background-color: rgb(161,141,161);
-    width: 60%;
+    width: 67%;
     height: 100%;
     border-radius: 20px;
 }
@@ -101,7 +101,7 @@ ul { padding: 0;
 .progress-bar-color-js {
     position: absolute;
     background-color: rgb(161,141,161);
-    width: 50%;
+    width: 57%;
     height: 100%;
     border-radius: 20px;
 }
@@ -109,7 +109,7 @@ ul { padding: 0;
 .progress-bar-color-jquery {
     position: absolute;
     background-color: rgb(161,141,161);
-    width: 62%;
+    width: 55%;
     height: 100%;
     border-radius: 20px;
 }
@@ -117,7 +117,7 @@ ul { padding: 0;
 .progress-bar-color-bootstrap {
     position: absolute;
     background-color: rgb(161,141,161);
-    width: 70%;
+    width: 62%;
     height: 100%;
     border-radius: 20px;
 }
@@ -142,7 +142,7 @@ ul { padding: 0;
 
 }
 
-.form {
-    width: 100%;
+.form-input {
+    width: 95%;
 }
 
