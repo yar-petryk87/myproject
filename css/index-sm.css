@@ -103,6 +103,7 @@ ul { padding: 0;
 }
 
 .image-call-me {
+    display: none;
     padding-top: 20px;
 }
 
