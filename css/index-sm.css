@@ -76,28 +76,6 @@ ul { padding: 0;
     margin-bottom: 0;
 }
 
-.progress-bar-background {
-    position: relative;
-    width: 100%;
-    background-color: rgb(212,200,212);
-    border-radius: 20px;
-    height: 17px;
-}
-
-.progress-bar-color {
-    position: absolute;
-    background-color: rgb(161,141,161);
-    width: 50%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-.progress-bar-text {
-    position: relative;
-    bottom: 16px;
-    text-align: center;
-    color: white;
-}
 
 .image {width: 10%;
 }
@@ -115,3 +93,6 @@ ul { padding: 0;
     width: 95%;
 }
 
+.photo {
+  margin: 0 ;
+}

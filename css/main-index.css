@@ -1,9 +1,10 @@
+
+
 body {
     background-color: rgb(237,240,245);
     max-width: 900px;
     margin: 0 auto;
     box-sizing: border-box;
-   
 }
 
 header {
@@ -16,8 +17,8 @@ header {
 }
 
 footer {
-    background-color: rgb(225,225,225);
-    border-radius: 10px;
+    background-color: rgb(208,225,237);
+   
 }
 
 footer p {
@@ -34,6 +35,9 @@ legend {
     color: rgb(180,180,180);
 }
 
+.full-content {
+    background-color: white;
+}
 .menu {
     height: 100%;
     text-align: center;
@@ -41,9 +45,10 @@ legend {
     color: blue;
     font-size: 20px;
     text-decoration: none;
+    color: black;
 }
 
-.menu:hover {background-color: grey;
+.menu:hover { background-color: rgb(170,210,237);
 }
 
 .selected {
