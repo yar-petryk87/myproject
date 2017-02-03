@@ -1,14 +1,12 @@
-
-
 body {
-    background-color: rgb(237,240,245);
+    background-color: rgb(237, 240, 245);
     max-width: 900px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 header {
-    background-color: rgb(208,225,237);
+    background-color: rgb(208, 225, 237);
     position: relative;
     width: 100%;
     position: relative;
@@ -17,8 +15,7 @@ header {
 }
 
 footer {
-    background-color: rgb(208,225,237);
-   
+    background-color: rgb(208, 225, 237);
 }
 
 footer p {
@@ -30,14 +27,14 @@ img {
     width: 100%;
 }
 
-
 legend {
-    color: rgb(180,180,180);
+    color: rgb(180, 180, 180);
 }
 
 .full-content {
     background-color: white;
 }
+
 .menu {
     height: 100%;
     text-align: center;
@@ -48,23 +45,21 @@ legend {
     color: black;
 }
 
-.menu:hover { background-color: rgb(170,210,237);
+.menu:hover {
+    background-color: rgb(170, 210, 237);
 }
 
 .selected {
-    background-color: rgb(130,188,232);
+    background-color: rgb(130, 188, 232);
     height: 100%;
     text-align: center;
     line-height: 80px;
-    
-  
 }
 
 .text-center {
-     text-align: center;
- }
+    text-align: center;
+}
 
 .text-justify {
     text-align: justify;
 }
-

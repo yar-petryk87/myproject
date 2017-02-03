@@ -3,8 +3,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .flex-item-heading {
@@ -12,9 +12,9 @@
 }
 
 .flex-item-nav {
-   -webkit-box-flex: 0;
-       -ms-flex: 0 0 25%;
-           flex: 0 0 25%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
 }
 
 .flex-container-content {
@@ -23,39 +23,38 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .flex-item-section {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
 }
 
 .flex-item-contact {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 70%;
-            flex: 0 0 70%;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
 }
 
 .flex-item-contact-photo {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 35%;
-            flex: 0 0 35%;
-    
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%;
 }
 
 .flex-item-footer {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
 }
 
-section{
+section {
     padding: 5px 0 5px 5px;
     margin-right: 5px;
 }
@@ -68,16 +67,16 @@ ul li {
     display: inline;
 }
 
-ul { padding: 0;
-    
+ul {
+    padding: 0;
 }
 
 #progress * {
     margin-bottom: 0;
 }
 
-
-.image {width: 10%;
+.image {
+    width: 10%;
 }
 
 .image-call-me {
@@ -94,5 +93,9 @@ ul { padding: 0;
 }
 
 .photo {
-  margin: 0 ;
+    margin: 0;
+}
+
+.image-project {
+    display: none;
 }

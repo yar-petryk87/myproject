@@ -1,23 +1,22 @@
-
 .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .flex-item-heading {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 40%;
-            flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
 }
 
 .flex-item-nav {
-   -webkit-box-flex: 0;
-       -ms-flex: 0 0 15%;
-           flex: 0 0 15%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
 }
 
 .flex-container-content {
@@ -25,68 +24,57 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-            background-color: white;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: white;
 }
 
 .flex-item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
 }
 
 .flex-item-form {
-   -webkit-box-flex: 0;
-       -ms-flex: 0 0 30%;
-           flex: 0 0 30%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
 }
 
 .flex-item-form-image {
-   -webkit-box-flex: 0;
-       -ms-flex: 0 0 70%;
-           flex: 0 0 70%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
 }
 
 .flex-item-footer {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
 }
-
-
 
 section * {
     padding: 5px 0 5px 5px;
     box-sizing: border-box;
 }
 
-
-
-
-
 figure {
     margin: 0;
 }
 
-
 h3 {
     padding-left: 10px;
-   
 }
-
 
 select {
     width: 100%;
     padding-bottom: 10px;
-    background-color: rgb(190,220,245);
+    background-color: rgb(190, 220, 245);
     margin-bottom: 40px;
 }
 
-
-
 fieldset {
-    border-color: rgb(180,180,180);
+    border-color: rgb(180, 180, 180);
     padding: 20px 20px 5px 10px;
 }
 
@@ -97,7 +85,6 @@ fieldset {
 .image {
     width: 100%;
     height: 245px;
-   
 }
 
 .subselect {
@@ -105,8 +92,6 @@ fieldset {
 }
 
 .default {
-   
     background-color: grey;
     opacity: 0.5;
 }
-
