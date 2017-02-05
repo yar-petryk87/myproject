@@ -54,6 +54,7 @@
 section * {
     padding: 5px 0 5px 5px;
     box-sizing: border-box;
+   
 }
 
 figure {
@@ -63,6 +64,7 @@ figure {
 
 .image {
     height: 240px;
+    padding: 0;
 }
 
 .submit {
